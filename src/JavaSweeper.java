@@ -45,11 +45,11 @@ public class JavaSweeper extends JFrame
         ///подменю
         JMenu levelMenu = new JMenu("Уровень");
         JMenuItem hardLevel = new JMenuItem("Сложный");
-        JMenuItem midLevel = new JMenuItem("Средний");
+        JMenuItem middleLevel = new JMenuItem("Средний");
         JMenuItem easyLevel = new JMenuItem("Легкий");
 
         levelMenu.add(easyLevel);
-        levelMenu.add(midLevel);
+        levelMenu.add(middleLevel);
         levelMenu.add(hardLevel);
 
         easyLevel.addActionListener(new ActionListener() {
@@ -59,7 +59,7 @@ public class JavaSweeper extends JFrame
                 sweeper = new JavaSweeper(10,10,10);
             }
         });
-        midLevel.addActionListener(new ActionListener() {
+        middleLevel.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 sweeper.dispose();
