@@ -1,11 +1,8 @@
 import sweeper.*;
 
-import java.util.ArrayList;
-
 public  class Bot
 {
-
-    /*public static int WinCount=0;
+    public static int WinCount=0;
 
     void setFlag(Coord coord)
     {
@@ -75,5 +72,5 @@ public  class Bot
                         JavaSweeper.panel.repaint();
 
         }
-    }*/
+    }
 }
